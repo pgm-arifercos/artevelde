@@ -1,0 +1,129 @@
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 300; /* Font weights gevonden op volgende website: https://helpx.adobe.com/fonts/using/css-selectors.html#:~:text=You%20can%20specify%20font%2Dweights,200%20%3D%20extra%2Dlight */
+}
+
+nav {
+    background-color: hsl(256, 15%, 28%);
+    padding: 0.5rem;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.title img {
+    float: left;
+    margin: 0.5rem;
+}
+
+.title a {
+    color: initial;
+    text-decoration: none;
+    color: white;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.selectors a {
+    text-decoration: none;
+    color: white;
+}
+
+.selectors strong {
+    font-weight: 600;
+}
+
+.selectors__takeaction {
+    border: 1px;
+    border-style: solid;
+    border-radius: 0.3rem;
+    border-color: hsl(186, 96%, 43%);
+    padding: 0.3rem;
+}
+
+
+
+
+footer {
+    background-color: hsl(256, 15%, 28%);
+    color: white;
+    padding: 2rem 1.8rem;
+    font-size: small;
+}
+
+footer h1 {
+    font-size: large;
+    font-weight: 300;
+    text-align: initial;
+    margin: 0.5rem 0 0.5rem 0;
+    line-height: initial;
+}
+
+footer h1:not(:first-child) {       /* Gevonden op deze website: https://techstacker.com/select-all-elements-except-first-child-selector/#:~:text=By%20using%20the%20%3Anot(%3A,for%20your%20menu. */
+    margin: 1.5rem 0 1rem 0;
+}
+
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 0 1rem 0;
+}
+
+.sitemap a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials {
+    margin: 1rem 0 1rem 0;
+    filter: invert(100%);
+    display: flex;
+    gap: 15px;
+}
+
+.copyrights {
+    background-color: hsl(0, 0%, 87%);
+    padding: 0 1.8rem;
+    font-size: 0.9rem;
+}
+
+@media(min-width:1000px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 65vw;
+    }
+
+    .title {
+        margin-left: 3rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        gap: 30rem;
+        padding: 2rem 5rem;
+    }
+
+    footer div {
+        flex-basis: 30%
+    }
+
+    .copyrights {
+        text-align: center;
+        padding: 1rem;
+    }
+}

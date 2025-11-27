@@ -1,0 +1,18 @@
+<gyms>
+    <gym>
+        <chain>Basic Fit</chain>
+        <location>Korenmarkt 1</location>
+        <members>3000</members>
+        <appliances>
+            <appliance>Dumbell</appliance>
+            <appliance>Bar</appliance>
+        </appliances>
+    </gym>
+    <gym>
+        <chain>Jims</chain>
+        <location>Dok-Noord 1</location>
+        <members>2000</members>
+        <appliances>
+            <appliance>Sauna</appliance>
+        </appliances>
+    </gym>

@@ -1,0 +1,96 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0 auto;
+    max-width: 30rem;
+    width: 90%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 40%);
+}
+
+.heading {
+    padding: 5rem 0 2.5rem 0;
+}
+
+h1, h2 {
+    font-family: Poppins, sans-serif;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.hashtags {
+    text-align: center;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.gamecard {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 1.5rem 0rem;
+    border-radius: 2rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.description {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dashed;
+    padding: 1rem 0.5rem;
+}
+
+.details {
+    font-weight: 700;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 2rem auto 0rem auto;
+    width: 8rem;
+    border-radius: 1000rem;
+    padding: 1rem;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.bottomtext {
+    color: black;
+    font-weight: normal;
+    font-size: small;
+    padding: 1rem 0rem 3rem 0rem;
+    text-align: center;
+}
+
+.chatgpt {
+    text-decoration: underline;
+    color: gray;
+}
+
+.details:hover {
+    background-color: hsl(228, 95%, 59%);
+    transition: all .1s linear;
+    color: white;
+}
+
+.details:active {
+    transform: translateY(3px);
+}

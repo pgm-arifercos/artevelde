@@ -1,0 +1,29 @@
+<products>
+    <product>
+        <name>Laptop</name>
+        <price>€1200</price>
+        <stock>25</stock>
+        <description>Krachtige laptop met 16GB RAM en 512GB SSD</description>
+        <charging-port>USB-C</charging-port>
+    </product>
+    <product>
+        <name>Smartphone</name>
+        <price>€800</price>
+        <stock>50</stock>
+        <description>Nieuw model smartphone met 128GB opslag en 12MP camera</description>
+        <charging-port>Lightning-Port</charging-port>
+    </product>
+    <product>
+        <name>Koptelefoon</name>
+        <price>€150</price>
+        <stock>100</stock>
+        <description>Draadloze koptelefoon met ruisonderdrukking en lange batterijduur</description>
+        <charging-port>USB-C</charging-port>
+    </product>
+    <product>
+        <name>SD-Kaart (Geheugenkaart)</name>
+        <price>€25</price>
+        <stock>85</stock>
+        <description>Een kleine geheugenkaart gebruikt voor opslag en overdracht van digitale gegevens.</description>
+    </product>
+</products>

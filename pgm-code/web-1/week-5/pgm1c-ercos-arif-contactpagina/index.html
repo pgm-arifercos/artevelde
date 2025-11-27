@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactpagina</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Contacteer ons</h1>
+
+        <label for="naam">Naam</label>
+        <input type="text" name="naam">
+        <label for="voornaam">Voornaam</label>
+        <input type="text" name="voornaam">
+        <br>
+        <br>
+        <p><span class="info">Ik wil meer informatie over:</span></p>
+        <label for="Web design" name="info"><input type="radio" value="Web design" name="info" id="webdesign">Web design</label>
+        <label for="Web development" name="info"><input type="radio" value="Web development" name="info" id="webdevelopment">Web development</label>
+        <br>
+
+        <label for="opmerkingen" id="opmerkingen">Opmerkingen</label>
+        <textarea value="opmerkingen" rows="4" cols="93"></textarea>
+
+        <input type="checkbox" value="nieuwsbrief" name="nieuwsbrief" id="nieuwsbrief">
+        <label for="nieuwsbrief">Ik wil graag de nieuwsbrief ontvangen</label>  
+        
+        <input type="submit" value="Versturen" id="versturen">
+    </form>
+</body>
+</html>

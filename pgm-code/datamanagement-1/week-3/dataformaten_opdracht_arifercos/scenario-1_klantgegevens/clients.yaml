@@ -1,0 +1,19 @@
+clients:
+  - client: "John Doe"
+    - firstName: "John"
+    - lastName: "Doe"
+    - email: "john.doe@example.com"
+    - age: 30
+    - address: "Stationsstraat 12, 9000 Gent"
+  - client: "Marie Verstraeten"
+    - firstName: "Marie"
+    - lastName: "Verstraeten"
+    - email: "marie.v@example.com"
+    - age: 25
+    - address: "Kerkplein 5, 1000 Brussel"
+  - client: "Joris De Bock"
+    - firstName: "Joris"
+    - lastName: "De Bock"
+    - email: "joris.debock@mail.com"
+    - age: 42
+    - address: "Molenstraat 8, 2000 Antwerpen"

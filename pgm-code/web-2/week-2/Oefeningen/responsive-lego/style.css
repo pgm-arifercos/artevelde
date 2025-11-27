@@ -1,0 +1,20 @@
+header {
+    background-color: orange;
+    padding-left: 5rem;
+}
+
+.barracuda .sterrennacht {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+}
+
+.barracuda_text {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.barracuda picture {
+    grid-column-start: 2;
+    
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "webPort": 8080
+    },
+    {
+        "databasePort": 5432,
+        "databaseURL": "db.example.com",
+        "username": "admin",
+        "password": "1234"
+    }
+]

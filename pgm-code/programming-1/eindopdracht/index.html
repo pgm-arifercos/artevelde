@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamescom 2026</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">GAMESCOM</div>
+        <nav id="main-nav"></nav>
+    </header>
+    <section id="countdown-section">
+        <div id="timer">Laden...</div>
+        <p>Until the nex edition</p>
+    </section>
+    <main class="container">
+        <div id="filter-container">
+            <label for="stage-filter">Filter op podium:</label>
+            <select id="stage-filter">
+                <option value="all">Alle Podia</option>
+            </select>
+        </div>
+        <section id="events-container" class="events-grid"></section>
+    </main>
+    <div id="modal-overlay" class="hidden">
+        <div id="modal-content">
+            <button id="modal-close-btn">&times;</button>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

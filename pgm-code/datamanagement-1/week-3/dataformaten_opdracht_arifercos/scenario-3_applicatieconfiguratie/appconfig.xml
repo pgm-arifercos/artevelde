@@ -1,0 +1,11 @@
+<config>
+    <webapplication>
+        <port>8080</port>
+    </webapplication>
+    <database>
+        <port>5432</port>
+        <url>db.example.com</url>
+        <username>admin</username>
+        <password>1234</password>
+    </database>
+</config>

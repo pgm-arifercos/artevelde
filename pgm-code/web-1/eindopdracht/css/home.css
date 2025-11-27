@@ -1,0 +1,178 @@
+.intro-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem 0 0.5rem 0;
+    font-size: 1.3em;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 5rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+header {
+    background-color: hsl(186, 96%, 43%);
+    padding-bottom: 11rem;
+    color: hsl(256, 15%, 28%);
+    position: relative;
+}
+
+.img-polarbear {
+    position: absolute;
+    bottom: -1.15rem;
+}
+
+main {
+    padding: 1.8rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(256, 15%, 28%);
+}
+
+.h2__text {
+    text-align: center;
+}
+
+.img-biker {
+    margin: auto auto 1rem auto;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.h3__text {
+    margin-bottom: 1rem;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+.quote {
+    background-color: hsl(11, 99%, 59%);
+    padding: 2.5rem 1.8rem;
+}
+
+.quote h2 {
+    color: white;
+}
+
+.quote__img {
+    width: 110px;
+    height: 110px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border-color: white;
+    margin: 1.5rem auto 0.2rem auto;
+}
+
+.quote__name {
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: 300;
+    margin: 1rem;
+}
+
+.quote__text__triangle {
+    transform: translate(0, 2px);
+    margin: auto;
+}
+
+.quote__text {
+    border: 1px;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: white;
+    background-color: white;
+    padding: 1rem;
+}
+
+@media (min-width: 1000px) {
+    header {
+        position: relative;
+        padding: 0 0 70vh 0;
+    }
+    .intro-title {
+        position: absolute;
+        right: 40rem;
+        top: 11rem;
+    }
+
+    header h1 {
+        position: absolute;
+        right: 22rem;
+        left: 58rem;
+        bottom: 17rem;
+        font-size: 4em;
+        line-height: 4rem;
+    }
+
+    .img-polarbear {
+        width: 55rem;
+        bottom: -7vh;
+        left: -3vw;
+    }
+
+    h2 {
+        margin-top: 3rem;
+    }
+
+    .h2__text {
+       margin: 0rem 35vw;
+    }
+
+    .what-we-know {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 15rem;
+        gap: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-biker {
+        width: 1000px;
+        height: 500px;
+    }
+
+    .quote {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 20rem;
+    }
+
+    .quote h2 {
+        text-align: start;
+        margin-top: -0.5rem;
+    }
+
+    .quote__speech-bubble {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .quote__img-nametag {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .quote__text__triangle {
+        transform: rotate(-90deg) translate(30px, 37px);
+    }
+
+    .quote__text {
+        width: 65rem;
+    }
+}

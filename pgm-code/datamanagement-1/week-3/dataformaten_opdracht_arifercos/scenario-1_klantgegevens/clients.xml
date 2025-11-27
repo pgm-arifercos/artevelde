@@ -1,0 +1,23 @@
+<clients>
+    <client>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <email>john.doe@example.com</email>
+        <age>30</age>
+        <address>Stationsstraat 12, 9000 Gent</address>
+    </client>
+    <client>
+        <firstName>Marie</firstName>
+        <lastName>Verstraeten</lastName>
+        <email>marie.v@example.com</email>
+        <age>25</age>
+        <address>Kerkplein 5, 1000 Brussel</address>
+    </client>
+    <client>
+        <firstName>Joris</firstName>
+        <lastName>De Bock</lastName>
+        <email>joris.debock@mail.com</email>
+        <age>42</age>
+        <address>Molenstraat 8, 2000 Antwerpen</address>
+    </client>
+</clients>

@@ -1,0 +1,14 @@
+[
+    {
+        "chain": "Basic Fit",
+        "location": "Korenmarkt 1",
+        "members": 3000,
+        "topAppliances": "Dumbells, Bar"
+    },
+    {
+        "chain": "Jims",
+        "location": "Dok-Noord 1",
+        "members": 2000,
+        "topAppliances": "Sauna"
+    }
+]

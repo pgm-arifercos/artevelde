@@ -1,0 +1,20 @@
+body {
+    color: #13152A;
+    background-image: url("../images/background.svg");
+    background-position: 0% 130%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 30rem;
+    margin: 0 auto;
+    font-family: Cabin;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em
+}

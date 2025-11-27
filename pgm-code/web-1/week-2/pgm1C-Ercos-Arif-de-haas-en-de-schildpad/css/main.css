@@ -1,0 +1,31 @@
+body {
+	font-family: "Hind Madurai";
+	font-weight: 400;
+	color: #1c2947;
+}
+
+h1 {
+	color: #1C2947;
+	font-family: Montserrat;
+	font-weight: 800;
+	text-decoration: underline red;
+}
+
+.turtle {
+	color: #2A9ABE;
+	font-weight: 700;
+}
+
+.hare {
+	color: #FF7678;
+	font-weight: 700;
+}
+
+.myth {
+	max-width: 45rem;
+	margin: 0 auto;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
